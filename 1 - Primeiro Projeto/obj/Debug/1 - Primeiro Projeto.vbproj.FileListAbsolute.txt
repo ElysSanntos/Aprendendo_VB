@@ -1,0 +1,12 @@
+C:\Users\Caleum\source\repos\Aprendendo VB\1 - Primeiro Projeto\bin\Debug\1 - Primeiro Projeto.exe.config
+C:\Users\Caleum\source\repos\Aprendendo VB\1 - Primeiro Projeto\bin\Debug\1 - Primeiro Projeto.exe
+C:\Users\Caleum\source\repos\Aprendendo VB\1 - Primeiro Projeto\bin\Debug\1 - Primeiro Projeto.pdb
+C:\Users\Caleum\source\repos\Aprendendo VB\1 - Primeiro Projeto\bin\Debug\1 - Primeiro Projeto.xml
+C:\Users\Caleum\source\repos\Aprendendo VB\1 - Primeiro Projeto\obj\Debug\1 - Primeiro Projeto.vbprojAssemblyReference.cache
+C:\Users\Caleum\source\repos\Aprendendo VB\1 - Primeiro Projeto\obj\Debug\_1___Primeiro_Projeto.Resources.resources
+C:\Users\Caleum\source\repos\Aprendendo VB\1 - Primeiro Projeto\obj\Debug\1 - Primeiro Projeto.vbproj.GenerateResource.cache
+C:\Users\Caleum\source\repos\Aprendendo VB\1 - Primeiro Projeto\obj\Debug\1 - Primeiro Projeto.vbproj.CoreCompileInputs.cache
+C:\Users\Caleum\source\repos\Aprendendo VB\1 - Primeiro Projeto\obj\Debug\1 - Primeiro Projeto.exe
+C:\Users\Caleum\source\repos\Aprendendo VB\1 - Primeiro Projeto\obj\Debug\1 - Primeiro Projeto.xml
+C:\Users\Caleum\source\repos\Aprendendo VB\1 - Primeiro Projeto\obj\Debug\1 - Primeiro Projeto.pdb
+C:\Users\Caleum\source\repos\Aprendendo VB\1 - Primeiro Projeto\obj\Debug\_1___Primeiro_Projeto.Frm_TelaPrincipal.resources
