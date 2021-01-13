@@ -10,3 +10,15 @@ C:\Users\Caleum\source\repos\Aprendendo VB\2 - Criando Variáveis\obj\Debug\2 - 
 C:\Users\Caleum\source\repos\Aprendendo VB\2 - Criando Variáveis\obj\Debug\2 - Criando Variáveis.xml
 C:\Users\Caleum\source\repos\Aprendendo VB\2 - Criando Variáveis\obj\Debug\2 - Criando Variáveis.pdb
 C:\Users\Caleum\source\repos\Aprendendo VB\2 - Criando Variáveis\obj\Debug\_2___Criando_Variáveis.Frm_TelaPrincipal_02.resources
+C:\Users\elyss\OneDrive\Área de Trabalho\COTUCA_DS\Alura\Cursos de VB.NET\Projects\AprendendoVB\Projects\2 - Criando Variáveis\bin\Debug\2 - Criando Variáveis.exe.config
+C:\Users\elyss\OneDrive\Área de Trabalho\COTUCA_DS\Alura\Cursos de VB.NET\Projects\AprendendoVB\Projects\2 - Criando Variáveis\bin\Debug\2 - Criando Variáveis.exe
+C:\Users\elyss\OneDrive\Área de Trabalho\COTUCA_DS\Alura\Cursos de VB.NET\Projects\AprendendoVB\Projects\2 - Criando Variáveis\bin\Debug\2 - Criando Variáveis.pdb
+C:\Users\elyss\OneDrive\Área de Trabalho\COTUCA_DS\Alura\Cursos de VB.NET\Projects\AprendendoVB\Projects\2 - Criando Variáveis\bin\Debug\2 - Criando Variáveis.xml
+C:\Users\elyss\OneDrive\Área de Trabalho\COTUCA_DS\Alura\Cursos de VB.NET\Projects\AprendendoVB\Projects\2 - Criando Variáveis\obj\Debug\2 - Criando Variáveis.vbprojAssemblyReference.cache
+C:\Users\elyss\OneDrive\Área de Trabalho\COTUCA_DS\Alura\Cursos de VB.NET\Projects\AprendendoVB\Projects\2 - Criando Variáveis\obj\Debug\_2___Criando_Variáveis.Frm_TelaPrincipal_02.resources
+C:\Users\elyss\OneDrive\Área de Trabalho\COTUCA_DS\Alura\Cursos de VB.NET\Projects\AprendendoVB\Projects\2 - Criando Variáveis\obj\Debug\_2___Criando_Variáveis.Resources.resources
+C:\Users\elyss\OneDrive\Área de Trabalho\COTUCA_DS\Alura\Cursos de VB.NET\Projects\AprendendoVB\Projects\2 - Criando Variáveis\obj\Debug\2 - Criando Variáveis.vbproj.GenerateResource.cache
+C:\Users\elyss\OneDrive\Área de Trabalho\COTUCA_DS\Alura\Cursos de VB.NET\Projects\AprendendoVB\Projects\2 - Criando Variáveis\obj\Debug\2 - Criando Variáveis.vbproj.CoreCompileInputs.cache
+C:\Users\elyss\OneDrive\Área de Trabalho\COTUCA_DS\Alura\Cursos de VB.NET\Projects\AprendendoVB\Projects\2 - Criando Variáveis\obj\Debug\2 - Criando Variáveis.exe
+C:\Users\elyss\OneDrive\Área de Trabalho\COTUCA_DS\Alura\Cursos de VB.NET\Projects\AprendendoVB\Projects\2 - Criando Variáveis\obj\Debug\2 - Criando Variáveis.xml
+C:\Users\elyss\OneDrive\Área de Trabalho\COTUCA_DS\Alura\Cursos de VB.NET\Projects\AprendendoVB\Projects\2 - Criando Variáveis\obj\Debug\2 - Criando Variáveis.pdb
