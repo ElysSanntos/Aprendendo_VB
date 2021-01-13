@@ -88,18 +88,20 @@
         Dim resultadoDecimal As Decimal
         resultadoDecimal = numerador / denominador
 
-        MsgBox("O resultado entre a divisão (Decimal) de " + numerador.ToString + " por " _
-               + denominador.ToString + " é " + resultadoDecimal.ToString, MsgBoxStyle.RetryCancel)
-
         Dim resultadoDouble As Double
         resultadoDouble = numerador / denominador
 
-        MsgBox("O resultado entre a divisão (Double) de " + numerador.ToString + " por " _
-               + denominador.ToString + " é " + resultadoDouble.ToString, MsgBoxStyle.SystemModal)
+        MsgBox("Veja nos campos abaixo os resultados da sua divisão em (Decimal) e (Double) de:  " + numerador.ToString + " por " _
+               + denominador.ToString)
 
 
+        'Recebe o resultado da programção de divisão de double e decimal'
         Txt_ResultadoDecimal.Text = resultadoDecimal.ToString
         Txt_resultadoDouble.Text = resultadoDouble.ToString
 
     End Sub
+
+
+
+
 End Class

@@ -31,6 +31,9 @@ Partial Class Frm_TelaPrincipal_02
         Me.Btm_Resultado = New System.Windows.Forms.Button()
         Me.Txt_ResultadoDecimal = New System.Windows.Forms.TextBox()
         Me.Txt_resultadoDouble = New System.Windows.Forms.TextBox()
+        Me.lb_divisao = New System.Windows.Forms.Label()
+        Me.lb_decimal = New System.Windows.Forms.Label()
+        Me.lb_Double = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Btm_NumerosInteiros
@@ -71,6 +74,8 @@ Partial Class Frm_TelaPrincipal_02
         '
         'Txt_Numerador
         '
+        Me.Txt_Numerador.AccessibleDescription = ""
+        Me.Txt_Numerador.AccessibleName = ""
         Me.Txt_Numerador.Location = New System.Drawing.Point(231, 45)
         Me.Txt_Numerador.Name = "Txt_Numerador"
         Me.Txt_Numerador.Size = New System.Drawing.Size(174, 20)
@@ -94,23 +99,53 @@ Partial Class Frm_TelaPrincipal_02
         '
         'Txt_ResultadoDecimal
         '
-        Me.Txt_ResultadoDecimal.Location = New System.Drawing.Point(231, 152)
+        Me.Txt_ResultadoDecimal.Location = New System.Drawing.Point(301, 178)
         Me.Txt_ResultadoDecimal.Name = "Txt_ResultadoDecimal"
         Me.Txt_ResultadoDecimal.Size = New System.Drawing.Size(340, 20)
         Me.Txt_ResultadoDecimal.TabIndex = 8
         '
         'Txt_resultadoDouble
         '
-        Me.Txt_resultadoDouble.Location = New System.Drawing.Point(231, 178)
+        Me.Txt_resultadoDouble.Location = New System.Drawing.Point(301, 204)
         Me.Txt_resultadoDouble.Name = "Txt_resultadoDouble"
         Me.Txt_resultadoDouble.Size = New System.Drawing.Size(340, 20)
         Me.Txt_resultadoDouble.TabIndex = 9
+        '
+        'lb_divisao
+        '
+        Me.lb_divisao.AutoSize = True
+        Me.lb_divisao.Location = New System.Drawing.Point(228, 20)
+        Me.lb_divisao.Name = "lb_divisao"
+        Me.lb_divisao.Size = New System.Drawing.Size(191, 13)
+        Me.lb_divisao.TabIndex = 10
+        Me.lb_divisao.Text = "Digite Valores para realizar uma divisão"
+        '
+        'lb_decimal
+        '
+        Me.lb_decimal.AutoSize = True
+        Me.lb_decimal.Location = New System.Drawing.Point(182, 181)
+        Me.lb_decimal.Name = "lb_decimal"
+        Me.lb_decimal.Size = New System.Drawing.Size(113, 13)
+        Me.lb_decimal.TabIndex = 11
+        Me.lb_decimal.Text = "Resultado em Decimal"
+        '
+        'lb_Double
+        '
+        Me.lb_Double.AutoSize = True
+        Me.lb_Double.Location = New System.Drawing.Point(182, 207)
+        Me.lb_Double.Name = "lb_Double"
+        Me.lb_Double.Size = New System.Drawing.Size(109, 13)
+        Me.lb_Double.TabIndex = 12
+        Me.lb_Double.Text = "Resultado em Double"
         '
         'Frm_TelaPrincipal_02
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(653, 289)
+        Me.Controls.Add(Me.lb_Double)
+        Me.Controls.Add(Me.lb_decimal)
+        Me.Controls.Add(Me.lb_divisao)
         Me.Controls.Add(Me.Txt_resultadoDouble)
         Me.Controls.Add(Me.Txt_ResultadoDecimal)
         Me.Controls.Add(Me.Btm_Resultado)
@@ -137,4 +172,7 @@ Partial Class Frm_TelaPrincipal_02
     Friend WithEvents Btm_Resultado As Button
     Friend WithEvents Txt_ResultadoDecimal As TextBox
     Friend WithEvents Txt_resultadoDouble As TextBox
+    Friend WithEvents lb_divisao As Label
+    Friend WithEvents lb_decimal As Label
+    Friend WithEvents lb_Double As Label
 End Class
