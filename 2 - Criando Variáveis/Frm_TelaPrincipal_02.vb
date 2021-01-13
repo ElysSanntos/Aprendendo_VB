@@ -46,7 +46,7 @@
     Private Sub Btm_ConversaoNumeros_Click(sender As Object, e As EventArgs) Handles Btm_ConversaoNumeros.Click
 
         Dim Salario As Double
-        Salario = 1300.45
+        Salario = 1300.455555689
 
         Dim SalarioInteiro As Integer
         SalarioInteiro = Salario
@@ -66,12 +66,12 @@
         MsgBox("O valor do salário minusculo é " + salarioMinusculo.ToString, MsgBoxStyle.MsgBoxHelp)
 
         Dim ValorDouble As Double
-        ValorDouble = 9.238748234798
+        ValorDouble = 9.2387482347982122
         MsgBox("O valor da variável double é " + ValorDouble.ToString, MsgBoxStyle.MsgBoxRtlReading)
 
 
         Dim ValorDecimal As Decimal
-        ValorDecimal = 9.238748234798
+        ValorDecimal = 9.2387482347982122
         MsgBox("O valor da variável Decimal é " + ValorDecimal.ToString, MsgBoxStyle.MsgBoxSetForeground)
 
 
