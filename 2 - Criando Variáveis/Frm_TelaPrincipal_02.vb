@@ -12,13 +12,13 @@
 
         Dim idade As Integer
         idade = 12
-        MsgBox("O valor da idade é " + idade.ToString, MsgBoxStyle.Critical)
+        MsgBox("O valor da idade é:  " + idade.ToString, MsgBoxStyle.Critical)
 
-        idade = 12 * 5
-        MsgBox("O valor da idade multiplicado por 5 é  " + idade.ToString, MsgBoxStyle.Critical)
+        idade *= 5
+        MsgBox("O valor da idade multiplicado por 5 é:  " + idade.ToString, MsgBoxStyle.Exclamation)
 
-        idade = (12 * 5) + 10
-        MsgBox("O valor da idade multiplicado por 5 e somado de 10 é " + idade.ToString, MsgBoxStyle.Critical)
+        idade *= 5 + 10
+        MsgBox("O valor da idade multiplicado por 5 e somado de 10 é:  " + idade.ToString, MsgBoxStyle.MsgBoxHelp)
 
     End Sub
 
@@ -27,18 +27,18 @@
         Dim valor As Double
         valor = 9.2
 
-        MsgBox("A variável valor é igual a  " + valor.ToString, MsgBoxStyle.Critical)
+        MsgBox("A variável valor é igual a:  " + valor.ToString, MsgBoxStyle.AbortRetryIgnore)
 
-        valor = 5 / 2
+        valor /= 2
 
-        MsgBox("O valor de 5 / 2 é " + valor.ToString, MsgBoxStyle.Critical)
+        MsgBox("O valor de 5 / 2 é: " + valor.ToString, MsgBoxStyle.Information)
 
         Dim numerador As Integer = 5
         Dim denominador As Integer = 2
 
         valor = numerador / denominador
 
-        MsgBox("O valor de 5 / 2 é " + valor.ToString, MsgBoxStyle.Critical)
+        MsgBox("O valor de" + numerador.ToString + " / " + denominador.ToString + " é:  " + valor.ToString, MsgBoxStyle.YesNo)
 
 
     End Sub
@@ -51,28 +51,28 @@
         Dim SalarioInteiro As Integer
         SalarioInteiro = Salario
 
-        MsgBox("O valor do salário é " + Salario.ToString + " e do salário inteiro é " + SalarioInteiro.ToString, MsgBoxStyle.Critical)
+        MsgBox("O valor do salário é " + Salario.ToString + " e do salário inteiro é " + SalarioInteiro.ToString, MsgBoxStyle.DefaultButton1)
 
         Dim salarioGrande As Long
         salarioGrande = 1000000000000000000
-        MsgBox("O valor do salário longo é " + salarioGrande.ToString, MsgBoxStyle.Critical)
+        MsgBox("O valor do salário longo é " + salarioGrande.ToString, MsgBoxStyle.DefaultButton2)
 
         Dim salarioPequeno As Short
         salarioPequeno = 1
-        MsgBox("O valor do salário pequeno é " + salarioPequeno.ToString, MsgBoxStyle.Critical)
+        MsgBox("O valor do salário pequeno é " + salarioPequeno.ToString, MsgBoxStyle.DefaultButton3)
 
         Dim salarioMinusculo As SByte
         salarioMinusculo = 10
-        MsgBox("O valor do salário minusculo é " + salarioMinusculo.ToString, MsgBoxStyle.Critical)
+        MsgBox("O valor do salário minusculo é " + salarioMinusculo.ToString, MsgBoxStyle.MsgBoxHelp)
 
         Dim ValorDouble As Double
         ValorDouble = 9.238748234798
-        MsgBox("O valor da variável double é " + ValorDouble.ToString, MsgBoxStyle.Critical)
+        MsgBox("O valor da variável double é " + ValorDouble.ToString, MsgBoxStyle.MsgBoxRtlReading)
 
 
         Dim ValorDecimal As Decimal
         ValorDecimal = 9.238748234798
-        MsgBox("O valor da variável Decimal é " + ValorDecimal.ToString, MsgBoxStyle.Critical)
+        MsgBox("O valor da variável Decimal é " + ValorDecimal.ToString, MsgBoxStyle.MsgBoxSetForeground)
 
 
     End Sub
@@ -89,13 +89,13 @@
         resultadoDecimal = numerador / denominador
 
         MsgBox("O resultado entre a divisão (Decimal) de " + numerador.ToString + " por " _
-               + denominador.ToString + " é " + resultadoDecimal.ToString, MsgBoxStyle.Critical)
+               + denominador.ToString + " é " + resultadoDecimal.ToString, MsgBoxStyle.RetryCancel)
 
         Dim resultadoDouble As Double
         resultadoDouble = numerador / denominador
 
         MsgBox("O resultado entre a divisão (Double) de " + numerador.ToString + " por " _
-               + denominador.ToString + " é " + resultadoDouble.ToString, MsgBoxStyle.Critical)
+               + denominador.ToString + " é " + resultadoDouble.ToString, MsgBoxStyle.SystemModal)
 
 
         Txt_ResultadoDecimal.Text = resultadoDecimal.ToString
